@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<manifest identifier="MANIFEST01" version="1.2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<imsmd:lom>
+			<imsmd:general>
+				<imsmd:title>
+					<imsmd:langstring xml:lang="en">Coronavirus_Awareness</imsmd:langstring>
+				</imsmd:title>
+			</imsmd:general>
+		</imsmd:lom>
+	</metadata>
+	<organizations default="MANIFEST01_ORG1Coronavirus1584086536023">
+		<organization identifier="MANIFEST01_ORG1Coronavirus1584086536023">
+				<title>Coronavirus_Awareness</title>
+				<item identifier="MI01Coronavirus1584086536023" identifierref="Res01Coronavirus1584086536023" isvisible="true" parameters="">
+					<title>Coronavirus_Awareness</title>
+				</item>
+		</organization>
+	</organizations>
+
+	<resources>
+		<resource identifier="Res01Coronavirus1584086536023" type="webcontent" adlcp:scormtype="sco" href="training.htm">
+			<file href="training.htm" />
+		</resource>
+	</resources>
+	
+	</manifest>

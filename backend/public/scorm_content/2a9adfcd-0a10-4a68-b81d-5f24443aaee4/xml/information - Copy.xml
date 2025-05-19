@@ -1,0 +1,635 @@
+<screens>
+  <background src="VirtualGalleryTest.swf">
+    <menu>
+      <item item_label="Why Carry out this e-Learning?" item_url="1" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Introduction" item_url="2" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Financial Viability" item_url="3" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Questions to Assess Financial Viability" item_url="4" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Support" item_url="5" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Financial Planning" item_url="6" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Financial Terminology" item_url="7" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Budgeting " item_url="8" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Master Budgets" item_url="9" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Capital Budgets" item_url="10" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Operating Budgets" item_url="11" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Monitoring Budgets" item_url="12" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Factoring in Variance" item_url="13" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Quiz" item_url="14" item_url_target="_self" thumbnail="1.jpg"/>
+      <item item_label="Summary" item_url="15" item_url_target="_self" thumbnail="1.jpg"/>
+    </menu>
+  </background>
+  <screen>
+    <screen_id x="200" y="180" keywords="Desk, Office, Work, Computer, PC, Keybord, Documents">1</screen_id>
+    <Template>4</Template>
+    <Section>Why Carry out this e-Learning?</Section>
+    <Content x="20" y="-50" width="500" height="450" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;You are carrying out this course because as part of your daily role you have responsibility for dealing with financial information.  You should therefore be versed in the principles of basic financial management and budgeting.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Should you have accessibility issues all text can be read by a screen reader and text is vocalised by the presenter or voiceover in most cases.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="0" y="256" start="0" stop="400"></Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_1.swf</Flash>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/WGS1_BG.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="240" y="200" keywords="Work, Sky, City, Skyline, Building, Board, White, Presentation">2</screen_id>
+    <Template>4</Template>
+    <Section>Introduction</Section>
+    <Content x="90" y="-86" width="480" height="400" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Welcome to this learning resource on &lt;B&gt;Financial Management and Budgeting&lt;/B&gt;. This course covers the following issues:&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;•  &lt;/B&gt;&lt;FONT COLOR="#000000"&gt;Financial Management&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;•  &lt;/B&gt;&lt;FONT COLOR="#000000"&gt;Financial Terminology&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;•  &lt;/B&gt;&lt;FONT COLOR="#000000"&gt;Budgeting for Business&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The course will last 45 minutes and there will be a quiz at the end to test your knowledge.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-50" y="140" start="0" stop="400"/>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_2.swf</Flash>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/WGS2_BG.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="100" y="50" keywords="Empty, Template, Clean">3</screen_id>
+    <Template>4</Template>
+    <Section>Financial Viability</Section>
+    <Content x="-80" y="-10" width="1050" height="300" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The viability of a company financially is its ability to create income which covers its expenses and costs plus have a chance to invest in development and growth.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_3.swf</Flash>
+    <Narrator x="-120" y="200" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/corporate_white_wall.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="100" y="50">301</screen_id>
+    <Template>4</Template>
+    <Content x="-80" y="-10" width="1040" height="300" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Being able to demonstrate the performance and financial position is essential for companies to stakeholders, staff and investors.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="190" y="150" keywords="Help, Desk, Person, Consultation, Advice, Silhouette, Office, Work">4</screen_id>
+    <Template>4</Template>
+    <Section>Questions to Assess Financial Viability</Section>
+    <Content x="-160" y="-90" width="660" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Questions to Assess Financial Viability&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Even those with many years of experience running a business can often lose track of whether a business idea or business itself is financially viable.  Various questions should be asked when examining financial viability ...&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="100" y="170" start="0" stop="400"></Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_4.swf</Flash>
+    <Image x="276" y="180" width="162" height="156" targetId="" text="" textColor="#000000">images/CBA_3a.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/inside_bank.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="200" y="150">401</screen_id>
+    <Template>4</Template>
+    <Content x="-140" y="90" width="340" height="100" hasBackground="true" bgColor="#0066FF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;How heavily does the business have to borrow?&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="100" y="170" start="0" stop="400"/>
+    <Image x="276" y="180" width="162" height="156" targetId="" text="" textColor="#000000">images/CBA_3b.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="200" y="150">402</screen_id>
+    <Template>4</Template>
+    <Content x="-140" y="90" width="340" height="100" hasBackground="true" bgColor="#0066FF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Does the business repay loans in time?&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="100" y="170" start="0" stop="400"/>
+    <Image x="276" y="180" width="162" height="156" targetId="" text="" textColor="#000000">images/CBA_3c.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="200" y="150">403</screen_id>
+    <Template>4</Template>
+    <Content x="-140" y="90" width="340" height="100" hasBackground="true" bgColor="#0066FF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Does the business have systems in place to account for unexpected events?&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="100" y="170" start="0" stop="400"/>
+    <Image x="276" y="180" width="162" height="156" targetId="" text="" textColor="#000000">images/CBA_3d.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="200" y="150">404</screen_id>
+    <Template>4</Template>
+    <Content x="-140" y="90" width="340" height="100" hasBackground="true" bgColor="#0066FF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Can the business support its needs?&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="100" y="170" start="0" stop="400"/>
+    <Image x="276" y="180" width="162" height="156" targetId="" text="" textColor="#000000">images/CBA_3e.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="200" y="150">405</screen_id>
+    <Template>4</Template>
+    <Content x="-140" y="90" width="340" height="100" hasBackground="true" bgColor="#0066FF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;If the business is not profitable is there a plan to change this?&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="100" y="170" start="0" stop="400"/>
+    <Image x="276" y="180" width="162" height="156" targetId="" text="" textColor="#000000">images/CBA_3e.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="200" y="150">406</screen_id>
+    <Template>4</Template>
+    <Content x="-140" y="90" width="340" height="100" hasBackground="true" bgColor="#0066FF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Is the business performing better of worse than it had in the past?&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="100" y="170" start="0" stop="400"/>
+    <Image x="276" y="180" width="162" height="156" targetId="" text="" textColor="#000000">images/CBA_3e.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="200" y="150">407</screen_id>
+    <Template>4</Template>
+    <Content x="-140" y="90" width="340" height="100" hasBackground="true" bgColor="#0066FF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;How long could the business function while making a loss?&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="100" y="170" start="0" stop="400"/>
+    <Image x="276" y="180" width="162" height="156" targetId="" text="" textColor="#000000">images/CBA_3e.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="200" y="180">5</screen_id>
+    <Template>10</Template>
+    <Section>Support</Section>
+    <Content x="-160" y="-120" width="500" height="450" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Even those with many years of experience running a business can find themselves needing support once there has been considerable growth, movement to a different sector or changes to regulations and law. &lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;In these circumstances it is common to look to get support from a professional advisor; click for options available to you ...&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="152" y="370" start="0" stop="400"></Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_5.swf</Flash>
+    <Image x="-150" y="-140" width="300" height="300" targetId="" text="" textColor="#000000"/>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/table_surface.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="50" y="150">501</screen_id>
+    <Template>10</Template>
+    <Content x="-160" y="-120" width="500" height="450" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Accountants&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Provide help with running office books (accounts) and compliances with taxes.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Can generate predictions of finances to use with investor presentations.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-80" y="150" start="0" stop="400"/>
+    <Image x="-150" y="-140" width="300" height="300" targetId="" text="" textColor="#000000"/>
+    <video x="40" y="166" width="300" height="169" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="50" y="150">502</screen_id>
+    <Template>10</Template>
+    <Content x="-160" y="-120" width="500" height="450" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Bankers&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Help with loan applications and facilitation.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Hold on to cashflow and provide interest of savings.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Provide money management and investor options.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-80" y="150" start="0" stop="400"/>
+    <Image x="-150" y="-140" width="300" height="300" targetId="" text="" textColor="#000000"/>
+    <video x="40" y="166" width="300" height="169" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="50" y="150">503</screen_id>
+    <Template>10</Template>
+    <Content x="-160" y="-120" width="500" height="450" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Solicitors and Lawyers&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Provide legal advice on financial matters such as contracts.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Disputes with suppliers / customers.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Reclaiming funds over intellectual property and debts.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-80" y="150" start="0" stop="400"/>
+    <Image x="-150" y="-140" width="300" height="300" targetId="" text="" textColor="#000000"/>
+    <video x="40" y="166" width="300" height="169" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="50" y="150">504</screen_id>
+    <Template>10</Template>
+    <Content x="-160" y="-120" width="500" height="450" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Insurance Brokers&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Support with coping with risk.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Lodging claims on the business&amp;apos;s behalf.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-80" y="150" start="0" stop="400"/>
+    <Image x="-150" y="-140" width="300" height="300" targetId="" text="" textColor="#000000"/>
+    <video x="40" y="166" width="300" height="169" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="50" y="150">505</screen_id>
+    <Template>10</Template>
+    <Content x="-160" y="-120" width="500" height="450" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Management Consultants&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;B&gt;&lt;/B&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Advise on Human Resource issues.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Training costs and benefits.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Making operations as effective as possible.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-80" y="150" start="0" stop="400"/>
+    <Image x="-150" y="-140" width="300" height="300" targetId="" text="" textColor="#000000"/>
+    <video x="40" y="166" width="300" height="169" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="100" y="40">6</screen_id>
+    <Template>4</Template>
+    <Section>Financial Planning</Section>
+    <Content x="400" y="20" width="540" height="420" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;It should be no surprise that bad financial planning is the main cause of business failure.  A business can be making a profit but not looking far enough ahead to deal with any problems it could face and therefore face closure should this happen.  &lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Another business could regularly make a small loss but as a result of future planning actually be better equipped to survive in difficult periods.  Financial viability is not always about a business turning over a large profit.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400"></Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_6.swf</Flash>
+    <Image x="320" y="200" width="300" height="307" targetId="" text="" textColor="#000000"/>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/housing.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="100" y="150">601</screen_id>
+    <Template>4</Template>
+    <Content x="300" y="80" width="500" height="420" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;To expand or develop a business there are two main methods, borrowing or using profits.  The risks of borrowing to expand can be that debt payments are missed if income from the growth is lower than expected.  However, some businesses might not generate enough profit to facilitate a large change that is needed.  This is why a comprehensive financial forecast is worthwhile before committing to changes.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400"/>
+    <Image x="-50" y="10" width="300" height="307" targetId="" text="" textColor="#000000">images/IRF_9a.png</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="100" y="150">602</screen_id>
+    <Template>4</Template>
+    <Content x="300" y="100" width="480" height="420" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;A business could grow too quickly for its means, an environmental or governmental change or a revolutionary technological development can all cause financial difficulties for an organisation.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400"/>
+    <Image x="-50" y="10" width="300" height="307" targetId="" text="" textColor="#000000">images/IRF_9b.png</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="100" y="150">603</screen_id>
+    <Template>4</Template>
+    <Content x="270" y="50" width="550" height="420" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Example 1: Woolworths&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;A very large British retailer that was forced to close down from 2009, the business was hit by reduced spending following the start of a recession.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The company did not follow the trend of having non-high street locations and lost out to retail park trading. Neither did it account for the growth in digital music sales - it used CDs as a large part of its store space.  The problem was exacerbated by supermarkets, which started selling the items that Woolworths had specialised in.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400"/>
+    <Image x="-50" y="10" width="300" height="307" targetId="" text="" textColor="#000000">images/IRF_9c.png</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="100" y="150">604</screen_id>
+    <Template>4</Template>
+    <Content x="270" y="50" width="550" height="420" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Example 2: Polaroid&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Highly successful instant photo company. Almost had a monopoly on the industry and started a process of stagnation in product development.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The development of digital cameras and smartphones made Polaroid technology outdated. Poor planning had left the company too low on funds to adapt an rebrand before closing in 2005.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400"/>
+    <Image x="-50" y="10" width="300" height="307" targetId="" text="" textColor="#000000">images/IRF_9d.png</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="100" y="150">605</screen_id>
+    <Template>4</Template>
+    <Content x="270" y="50" width="550" height="420" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Example 3: Zynga&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Created Farmville and other popular games played through Facebook. Expanded quickly following Farmville&amp;apos;s success. Buying multiple offices and enlarging the workforce.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Due to the changing trends in social media Zynga lost 40% of its users and as a result lost investor money too. Further drops in revenue, deals ending with Facebook and bad customer perception meant more closures and redundancies. Still trading but at a greatly restricted level.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400"/>
+    <Image x="-50" y="10" width="300" height="307" targetId="" text="" textColor="#000000">images/IRF_9d.png</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="160" y="130">7</screen_id>
+    <Template>5</Template>
+    <Section>Financial Terminology</Section>
+    <Content x="450" y="20" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;In any area of expertise there is a language used and specific terminology that can seem impenetrable to those unfamiliar with the subject. Finance, budgeting and accounting are no different and it can help to prepare by researching some of these terms before meeting with advisors or experts.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"></Narrator>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_5.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/IT_SEC_BG_5.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">701</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Accrual&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Accumulation of funds through interest or by combining investments.  It can be from monies not yet received.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_501.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">702</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Asset&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Anything owned by an organisation that has an economic value.  Tangible assets are items, physical things.  Intangible assets are customer goodwill, copyrights, patents, bonds and stocks.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_502.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">703</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Audit&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The examination of the financial records of an organisation.  It is a method of checking a firm is working within the law financially.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_503.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">704</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Balance Sheet&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;One of the key financial statements an organisation might have to produce.  Assets, liabilities and equity are listed and provide a overview of a company&amp;apos;s financial position.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_504.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">705</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Break-even&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The threshold where a company moves from making a loss to making a profit. The point at which expenditure is recouped.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_505.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">706</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Budget&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The amount of money that an organisation is planning to spend.  A budget can cover an entire organisation, a project or event.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_506.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">707</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Capital Gain&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The amount of money made when selling an asset from the original cost.  It is a value that tax is often paid from.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_507.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">708</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Cash Flow&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The total amount of money coming in or being spent on a daily basis by an organisation.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">709</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Creditor&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The person/organisation to whom money is owed from a debt.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">710</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Current Liabilities&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The money owed by an organisation, often measured in 12 month periods.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">711</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Debtor&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;A person or organisation that owes another money.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">712</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Depreciation&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The loss of value of an asset over time.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">713</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Dividend&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;A payment made by an organisation to its shareholders. Usually based on profits.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">714</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Equity&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The value of an organisation&amp;apos;s assets once their liability is taken away.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">715</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Gross Profit / Loss&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The money made or lost from sales after just the costs and expenditure is subtracted.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">716</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Liabilities&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;What the business owes. Often long term loans used in setting a business up or launching a new project.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">717</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;National Insurance&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;A state run social security scheme that is compulsory for all organisations. Provides state benefits and healthcare.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="20" y="20">718</screen_id>
+    <Template>5</Template>
+    <Content x="450" y="40" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Net Profit / Loss&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;The profit or loss after all the organisation’s deductions are taken off.  Differs from gross which will only account for the cost of the raw materials and production.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="500" y="300" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000">images/IT_SEC_508.jpg</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="180" y="180">8</screen_id>
+    <Template>4</Template>
+    <Section>Budgeting</Section>
+    <Content x="410" y="-120" width="450" height="400" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Budgets can vary massively in scope and size.  Breaking them into three categories is an easy way to ensure a better understanding of how a budget is managed and controlled.  &lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;For example, when the Chancellor of the Exchequer announces where and what the government is spending, saving and taxing - it is called “the Budget”.  All organisations will have to do the same thing to run efficiently – albeit on a smaller scale.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400">sound/reg_frame_14.mp3</Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_8.swf</Flash>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/5.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="50" y="20" keywords="Silhouettes, Page, Document, Paper, Thinking, List">9</screen_id>
+    <Template>4</Template>
+    <Section>Master Budgets</Section>
+    <Content x="500" y="40" width="490" height="500" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Master Budgets&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;This is usually the annual account of every bit of spending an organisation will incur.  It will line up with the financial year of April to March or September to August for the education sector and will be divided into quarters or terms.  The size of this task means that this budget will be overseen by a specialist team or even an external specialist.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;This budget is frequently divided into the Capital Budget and the Operational Budget.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="300" y="300" start="0" stop="400"></Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_9.swf</Flash>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <Video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/IT_SEC_BG_11.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="180" y="210">10</screen_id>
+    <Template>4</Template>
+    <Section>Capital Budgets</Section>
+    <Content x="400" y="-60" width="410" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Capital Budgets&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;This budgeting decides whether or not an investment or piece of expenditure is worthwhile for a business or organisation.  It could be buying new equipment for an office or facility, recruiting new staff or research and development expenditure.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400"></Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_10.swf</Flash>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <Video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/5_1.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="180" y="210">1001</screen_id>
+    <Template>4</Template>
+    <Content x="360" y="-150" width="500" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Some of the techniques for doing this are:&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Payback Period&lt;/B&gt;&lt;FONT COLOR="#000000"&gt; – working out the time needed to recoup the money to break even.&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Net Present Value&lt;/B&gt;&lt;FONT COLOR="#000000"&gt; – takes the present values of the outflowing cash from the projected value of cash over a period of time.  This method takes into account the inflation or deflation of a currency.&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Internal Rate of Return&lt;/B&gt;&lt;FONT COLOR="#000000"&gt; – this presents the percentage of profit against expenditure without accounting for external influences.&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <Video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="180" y="210">1002</screen_id>
+    <Template>4</Template>
+    <Content x="400" y="-60" width="400" height="380" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;There are many more ways to calculate a Capital Budget, some might be industry specific or factor in recent legal or environmental changes.&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Organisations will use several at once, particularly for investments that carry a high level of risk.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-100" y="200" start="0" stop="400"/>
+    <Image x="120" y="-80" width="230" height="190" targetId="" text="" textColor="#000000">images/IRF_3a.jpg</Image>
+    <Video x="80" y="245" width="240" height="167" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="50" y="100" keywords="Circle, Information, Arrow">11</screen_id>
+    <Template>4</Template>
+    <Section>Operating Budgets</Section>
+    <Content x="0" y="0" width="400" height="440" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Operating Budgets&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;This budget contains the estimates for the value of resources needed for an organisation to continue operating at its current or at a higher standard.  This budget factors in expenditure on salaries, maintenance and interest payments.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="600" y="350" start="0" stop="400"></Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_11.swf</Flash>
+    <Image x="556" y="140" width="256" height="222" targetId="" text="" textColor="#000000">images/HSFM_20.png</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Background>images/HSFM_BG20.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="50" y="100" keywords="Circle, Information, Arrow">1101</screen_id>
+    <Template>4</Template>
+    <Content x="0" y="0" width="400" height="440" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;This is the budget that helps an organisation present its accounts at the end of the financial year and a framework around which it can function in over the next 12 months.  They will take into account historical data, realistic estimates of future expenditure and inflation/deflation. For ease of feedback and monitoring operating budgets need to be presented very clearly and methodically.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="600" y="350" start="0" stop="400">sound/HSFM_20.mp3</Narrator>
+    <Image x="556" y="140" width="256" height="222" targetId="" text="" textColor="#000000">images/HSFM_20.png</Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"></video>
+  </screen>
+  <screen>
+    <screen_id x="80" y="150" keywords="Slideshow, Video, Screen, Laptop, Ultrabook, PC, Computer, HD Video, Presentation">12</screen_id>
+    <Template>4</Template>
+    <Section>Monitoring Budgets</Section>
+    <Content x="630" y="-50" width="350" height="380" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Once a budget is completed it should be considered a working document, i.e. one that is continually adapted and developed as needed.  &lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Recessions, market changes, environmental issues and fluctuations in public perception and currency value can all affect the figures in a budget.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="0" y="130" start="0" stop="400"></Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_12.swf</Flash>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <video x="126" y="140" width="428" height="248" autostart="false"/>
+    <Background>images/4_1.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="80" y="150">1201</screen_id>
+    <Template>4</Template>
+    <Content x="630" y="-50" width="350" height="380" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Monitoring the budget can reduce the chances of it becoming obsolete. The key aspects of the budget that need to be closely checked at regular intervals are income and expenditure.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="0" y="130" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <video x="126" y="140" width="428" height="248" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="80" y="150">1202</screen_id>
+    <Template>4</Template>
+    <Content x="630" y="-50" width="350" height="380" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Income&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;With respect to income, this needs to be regularly compared with the current actual income.  It is important that reasons for any  shortfall are examined, factoring in aspects such as seasonal changes, interest rates etc.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="0" y="130" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <video x="126" y="140" width="428" height="248" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="80" y="150">1203</screen_id>
+    <Template>4</Template>
+    <Content x="630" y="-50" width="350" height="380" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Expenditure&lt;/B&gt;&lt;FONT COLOR="#000000"&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Fixed costs should be checked for variance from the budget as well as the potentially variable ones.  Look over the variable costs relative to the income.  Consider factors such as have all suppliers’ costs been considered in the budget etc.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="0" y="130" start="0" stop="400"/>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <video x="126" y="140" width="428" height="248" autostart="false"/>
+  </screen>
+  <screen>
+    <screen_id x="160" y="130" keywords="Slideshow, Screen, Presentation, Images">13</screen_id>
+    <Template>4</Template>
+    <Section>Factoring in Variance</Section>
+    <Content x="130" y="-70" width="600" height="380" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;A variance is the difference between the expected budget and the actual budget used. There are two outcomes: &lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;&lt;/B&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Positive &lt;/B&gt;&lt;FONT COLOR="#000000"&gt;– the budget expenditure was less or the money made was more.&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-50" y="90" start="0" stop="400"></Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_13.swf</Flash>
+    <Image x="-150" y="-90" width="380" height="380" targetId="" text="" textColor="#000000"></Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"></video>
+    <Background>images/GDPR6_BG.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <screen>
+    <screen_id x="160" y="130">1301</screen_id>
+    <Template>4</Template>
+    <Content x="130" y="-70" width="600" height="380" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;Adverse&lt;/B&gt;&lt;FONT COLOR="#000000"&gt; – the costs were higher than expected or less money was made&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="0" y="256" start="0" stop="400"></Narrator>
+    <Image x="-150" y="-90" width="380" height="380" targetId="" text="" textColor="#000000"></Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"></video>
+  </screen>
+  <screen>
+    <screen_id x="160" y="130">1302</screen_id>
+    <Template>4</Template>
+    <Content x="-130" y="-70" width="600" height="450" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;It is acceptable to have some variance as an estimated budget is just that, an estimate, a guess.  However, careful planning and budget monitoring is what protects against a large variation in figures.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="0" y="256" start="0" stop="400"></Narrator>
+    <Image x="-150" y="-90" width="380" height="380" targetId="" text="" textColor="#000000"></Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"></video>
+  </screen>
+  <screen>
+    <screen_id x="160" y="130">1303</screen_id>
+    <Template>4</Template>
+    <Content x="-130" y="-70" width="600" height="450" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Using previous records as reference points will add to the safety in these estimations.  If there is a worry of a large amount of variance, it is recommended to redo the original budget and re-present it to the investors.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="0" y="256" start="0" stop="400"></Narrator>
+    <Image x="-150" y="-90" width="380" height="380" targetId="" text="" textColor="#000000"></Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"></video>
+  </screen>
+  <screen>
+    <screen_id x="200" y="110" keywords="Quiz, Questionnaire, Question, Exam, Multiple Choice">14</screen_id>
+    <Template>1</Template>
+    <Section>Quiz</Section>
+    <Title x="-220" y="-165" width="0" height="0" hasBackground="false" bgColor="#FFFFFF"/>
+    <Content x="100" y="-40" width="400" height="80" hasBackground="false" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Complete the quiz before continuing.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="650" y="300" start="0" stop="400"></Narrator>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"/>
+    <video x="80" y="245" width="240" height="167" autostart="false"/>
+    <Quizes>
+      <settings>
+        <quiz_title/>
+        <OK>OK</OK>
+        <Issue_Detected>Issue detected</Issue_Detected>
+        <Retake_Test>You have reached the end of the test.</Retake_Test>
+        <Ratio>Your ratio is</Ratio>
+        <No_Issues>You have got 100%, no further action is required.</No_Issues>
+        <Few_Issues>You have got very few questions wrong, there is no cause for immediate concern.</Few_Issues>
+        <Some_Issues>You have got some answers wrong, you may wish to retake the test.</Some_Issues>
+        <Many_Issues>You have got many questions wrong, we strongly recommend you redo the training.</Many_Issues>
+        <Most_Issues>Select below</Most_Issues>
+        <Intro_Text/>
+        <Intro_Art/>
+        <Columns>1</Columns>
+        <Random>1</Random>
+        <Show_Intro>1</Show_Intro>
+        <Show_Results>1</Show_Results>
+        <QuizType>0</QuizType>
+        <LoadsQuizatScreenLevel>0</LoadsQuizatScreenLevel>
+        <ShowFeedback>0</ShowFeedback>
+        <PassMark>69</PassMark>
+        <Show_Answers>1</Show_Answers>
+      </settings>
+    </Quizes>
+    <Background>images/corporate_shelf.jpg</Background>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0" keywords="Desk, Office, Work, Computer, PC, Keybord, Documents">15</screen_id>
+    <Template>4</Template>
+    <Section>Summary</Section>
+    <Content x="510" y="60" width="530" height="420" hasBackground="true" bgColor="#FFFFFF">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Well done you have completed the course in &lt;B&gt;Financial Management and Budgeting&lt;/B&gt;. You should now know the basics concerning:&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;•  &lt;/B&gt;&lt;FONT COLOR="#000000"&gt;Financial Management&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;•  &lt;/B&gt;&lt;FONT COLOR="#000000"&gt;Financial Terminology&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"&gt;&lt;B&gt;•  &lt;/B&gt;&lt;FONT COLOR="#000000"&gt;Budgeting for Business&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="24" COLOR="#000000" LETTERSPACING="0" KERNING="0"&gt;Should you need to revisit any of the topics in this course, please use the menu at the bottom of the screen.&lt;/FONT&gt;&lt;/P&gt;</Content>
+    <Narrator x="-80" y="90" start="0" stop="400"></Narrator>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/FMB_15.swf</Flash>
+    <Image x="" y="" width="" height="" targetId="" text="" textColor="#000000"></Image>
+    <video x="80" y="245" width="240" height="167" autostart="false"></video>
+    <Background>images/GDPR9_BG.jpg</Background>
+    <information><![CDATA[]]></information>
+  </screen>
+  <video>
+    <vid/>
+    <video_file_visible>true</video_file_visible>
+    <time_visible>false</time_visible>
+    <video_streaming>false</video_streaming>
+    <server/>
+    <video_width>280</video_width>
+    <video_height>320</video_height>
+    <video_slides_in>false</video_slides_in>
+  </video>
+  <settings>
+    <submenu_start>0</submenu_start>
+    <submenu_number>0</submenu_number>
+    <crowds_visible>false</crowds_visible>
+    <btn_copy_script_visible>true</btn_copy_script_visible>
+    <menu_width>220</menu_width>
+    <menu_height>30</menu_height>
+    <menu_x>885</menu_x>
+    <menu_y>60</menu_y>
+    <buildings_visible>false</buildings_visible>
+    <lights_visible>false</lights_visible>
+    <back_ground_visible>false</back_ground_visible>
+    <sky_visible>false</sky_visible>
+    <tv_x>140</tv_x>
+    <tv_y>360</tv_y>
+    <tv_width>500</tv_width>
+    <tv_height>313</tv_height>
+    <show_second_menu>false</show_second_menu>
+    <status_set_to_passed>true</status_set_to_passed>
+  </settings>
+  <scorm>
+    <scorm_format>SVGA_1905s</scorm_format>
+    <screen_scorm_finish>15</screen_scorm_finish>
+    <scorm_frame>15</scorm_frame>
+    <xmlversion>TTTTWQ-OQMTDXDCUAY</xmlversion>
+    <scorm_2004>546822</scorm_2004>
+    <scorm_2005>611154</scorm_2005>
+    <course_name>Financial Management and Budgeting</course_name>
+  </scorm>
+  <introduction>
+    <intro_title>Main e-Learning Title Here</intro_title>
+    <intro_title2>Second Title</intro_title2>
+    <intro_title3>Third Title</intro_title3>
+    <client_name>from e-learning WMB</client_name>
+    <tag_line>Video and Audio</tag_line>
+    <tag_line2>Multimedia e-learning</tag_line2>
+    <tag_line3>Training Description</tag_line3>
+    <orange_color>333333</orange_color>
+    <blue_color>ffffff</blue_color>
+    <show_intro>true</show_intro>
+  </introduction>
+</screens>

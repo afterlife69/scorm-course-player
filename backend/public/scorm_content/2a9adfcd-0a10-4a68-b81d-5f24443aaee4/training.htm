@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <style type="text/css">
+
+        html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        #openfl-content { background: #fff; width: 100%; height: 100%; }
+        #openfl-content { margin: 0 auto; }
+        #openfl-content > div { width: 100% !important; height: 100% !important; }
+        #openfl-content p { margin-top: 0; margin-bottom: 0; line-height: 1.3; min-height: 1em; }
+        .content-element { font-family: Arial; cursor: default; }
+        .video-js video:focus, .vjs-poster:focus, .vjs-text-track-display:focus { outline: none; }
+        .inside-jackdaw .vjs-youtube .vjs-iframe-blocker { display: block !important; }
+        .is-ios #openfl-content, .is-ios #openfl-content * { cursor: pointer !important; }
+        
+    /*    #openfl-content div div { clip: unset !important; } /* to solve mysterious textfield cliping issue */
+
+        @font-face {
+            font-family: 'Arial Bold';
+            src: url('fonts/Arial Bold.eot');
+            src: url('fonts/Arial Bold.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Arial Bold.svg#my-font-family') format('svg'),
+            url('fonts/Arial Bold.woff') format('woff'),
+            url('fonts/Arial Bold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Arial';
+            src: url('fonts/Arial.eot');
+            src: url('fonts/Arial.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Arial.svg#my-font-family') format('svg'),
+            url('fonts/Arial.woff') format('woff'),
+            url('fonts/Arial.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Light';
+            src: url('fonts/Roboto/Roboto-Light.woff')  format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('fonts/Roboto/Roboto-Regular.woff')  format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Medium';
+            src: url('fonts/Roboto/Roboto-Medium.woff')  format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Bold';
+            src: url('fonts/Roboto/Roboto-Bold.woff')  format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Black';
+            src: url('fonts/Roboto/Roboto-Black.woff')  format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Thin';
+            src: url('fonts/Roboto/Roboto-Thin.woff')  format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        #intro {
+            max-width: 650px;
+            margin: auto;
+            font-family: sans-serif;
+            margin-top: 100px;
+        }
+
+        #intro button {
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            background: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            color: #fff;
+            font-size: 30px;
+            line-height: 200px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .hidden { display: none !important; }
+
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="js/bundle.css">
+    <script src="js/bundle.js" type="text/javascript"></script>
+
+    <title>e-learning WMB</title>
+
+    <script type="text/javascript" name="cmifrag" src="js/fs_scorm.js"></script>
+</head>
+<body onload="SCOInitialize();" onunload="SCOFinish()" onbeforeunload="SCOFinish()" id="room-body">
+    <div id="swfobject-target"></div>
+
+    <div id="openfl-content" class="hidden"></div>
+    <noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
+
+    <div id="intro">
+        <h1 align="center">Select how you wish to run this course ...</h1>
+        <div style="text-align: center;">
+            <button type="button" onclick="html5Actions()">HTML5</button>
+            <button type="button" onclick="flashActions()">Adobe Flash</button>
+        </div>
+        <p style="font-size:14px" align="center"><br>
+            Select Adobe Flash to render smoother 3D objects. If it is the first time, click on the icon after selecting.
+        </p>
+    </div>
+    <div style="position: absolute; top: 0; right: 0; width: 45px; height: 34px; cursor: pointer;" onclick="closeThis();"></div>
+    <script type="text/javascript" name="earlyInit">
+        <!--
+
+        function setFullScreen()
+        {
+            if (window.screenfull && screenfull.isEnabled && !screenfull.isFullscreen)
+            {
+                screenfull.request();
+                // Awoid locking orientation on unsuported Apple devices
+                if (!(/iPhone|iPad|iPod/i.test(navigator.userAgent))) screen.orientation.lock("landscape");
+            }
+        }
+
+        function closeThis()
+        {
+            if (window.screenfull && screenfull.isFullscreen) {
+                screenfull.exit();
+            }
+            SCOFinish();
+            if (typeof closeRoom === "function") {
+                closeRoom();
+            }
+        }
+
+        var spinner;
+
+        // Determine whether to attempt to initialize API before loading
+        // movie in case there is some ActionScript that fires off before
+        // the rest of the HTML page has finished loading.  This is
+        // configurable by setting the global boolean (g_bInitializeOnLoad)
+        // in the beginning of this file.  Default value is TRUE.
+
+        if (g_bInitializeOnLoad) {
+            SCOInitialize()
+        }
+
+        function html5Actions() {
+            var room,
+                afterJsLoad = function () {
+                    setTimeout(function () {
+                        if (typeof lime !== "undefined") {
+                            lime.embed('room', 'openfl-content', 1070, 650, {parameters: {}});
+                            spinner.stop();
+                        }
+                    }, 500);
+                };
+
+            if (typeof Spinner !== 'undefined') {
+                spinner = new Spinner({}).spin(document.body);
+            }
+
+            document.getElementById('openfl-content').classList.remove("hidden");
+            document.getElementById('intro').classList.add("hidden");
+
+            room = document.createElement("script");
+            room.src = './room.js';
+            document.body.appendChild(room);
+            room.onload = function () {
+                afterJsLoad();
+            };
+
+            window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+            window.addEventListener("resize", resize);
+            window.addEventListener("load", resize);
+            initialScale();
+            function initialScale() {
+                var scale = window.devicePixelRatio > 2 ? (2 / window.devicePixelRatio) : 1.0;
+                var meta = document.getElementById("viewport");
+                meta.setAttribute ('content', 'width=device-width, initial-scale=' + scale + ', user-scalable=no');
+            }
+            function resize(event) {
+                initialScale();
+                var parentIframe, inJackDaw;
+                try {
+                    parentIframe = parent.parent.document.getElementById('launch-popup');
+                    inJackDaw = parent.parent.document.getElementById('modal-iframe') != null;
+                }
+                catch (e) {
+                    // crossdomain
+                }
+                if (parentIframe) parentIframe.style.height = '650px';
+                var el = document.getElementById("openfl-content");
+                var scaleX = window.innerWidth / 1070;
+                var scaleY = window.innerHeight / 650;
+                if (scaleY < scaleX) {
+                    el.style.height = window.innerHeight + "px";
+                    el.style.width = scaleY * 1070 + "px";
+                    el.style.marginTop = "0";
+                    if (parentIframe) parentIframe.style.height = el.style.height;
+                }
+                else {
+                    el.style.width = window.innerWidth + "px";
+                    el.style.height = scaleX * 650 + "px";
+                    if (parentIframe) parentIframe.style.height = el.style.height;
+                    if (inJackDaw) el.style.marginTop = (window.innerHeight - (scaleX * 650)) / 2 + "px";
+                }
+            }
+        }
+
+        function getRestUrl() {
+            var getUrl = top.window.location;
+            return getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1] + '/api/index.php';
+        }
+
+        html5Actions(); // Default to HTML5
+
+        //-->
+    </script>
+    <script src="js/swfobject.js" type="text/javascript"></script>
+    <script src="js/swfaddress.js" type="text/javascript"></script>
+    <script type="text/javascript" src="./js/rest.js"></script>
+
+    <script type="text/javascript">
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = (location.protocol.indexOf('file:') === -1 ? location.protocol : 'https:') + "//h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js";
+        document.body.append(script);
+    </script>
+
+</body>
+</html>
